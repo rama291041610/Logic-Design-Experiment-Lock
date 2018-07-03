@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../jingzhe.srcs/sources_1/new/CounterModTen.v" \
+"../../../../jingzhe.srcs/sources_1/new/screen.v" \
+"../../../../jingzhe.srcs/sources_1/new/main.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
